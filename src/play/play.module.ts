@@ -2,7 +2,7 @@ import {Module} from "@nestjs/common";
 import {ConfigService} from "@nestjs/config";
 
 @Module({
-    imports: [Ty],
+    imports: [],
     exports: [PlayModule]
 })
 export class PlayModule {}
